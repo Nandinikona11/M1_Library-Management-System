@@ -61,7 +61,7 @@ Library Management System is implemented for the purpose of book issuing , retur
 4)  online systems require high speed internet connectivity .
 
 ### Opportunities :
-he LMS leaks outward into new spaces, spaces which it didn’t inhabit before, such as reading lists repositories, learning systems, research data management and so forth. Furthermore, it is likely that the future of library systems will consist of a mixture of open and closed systems as well as local and shared (or hosted) services. With an increasing move towards closed platforms (like Facebook, for example) and proprietary ecosystems (like Apple), libraries will be required tonavigate these different spaces and ecosystems.
+The LMS leaks outward into new spaces, spaces which it didn’t inhabit before, such as reading lists repositories, learning systems, research data management and so forth. Furthermore, it is likely that the future of library systems will consist of a mixture of open and closed systems as well as local and shared (or hosted) services. With an increasing move towards closed platforms (like Facebook, for example) and proprietary ecosystems (like Apple), libraries will be required tonavigate these different spaces and ecosystems.
 
 ### Threats :
 Book theft, mutilation of information resources, and non return of borrowed library materials, impersonation, and computer virus attack.Libraries now send and retrieve data from databases to help better manage inventory and the like, but some libraries don’t have the right data encryption practices in place. This can often lead to lost data and sometimes, the data easily obtainable by criminals.
