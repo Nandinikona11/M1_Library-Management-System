@@ -65,3 +65,14 @@ The LMS leaks outward into new spaces, spaces which it didn’t inhabit before, 
 
 ### Threats :
 Book theft, mutilation of information resources, and non return of borrowed library materials, impersonation, and computer virus attack.Libraries now send and retrieve data from databases to help better manage inventory and the like, but some libraries don’t have the right data encryption practices in place. This can often lead to lost data and sometimes, the data easily obtainable by criminals.
+
+## HIGH LEVEL REQUIREMENTS:
+
+|RID|DESCRIPTION|STATUS|
+|:--|:----------|:-----|
+|HLR1|OS WINDOWS|IMPLEMENTED|
+|HLR2|OS LINUX|IMPLEMENTED|
+|HLR3|GCC COMPILER|IMPLEMENTED|
+|HLR4|HARDDISK|IMPLEMENTED|
+|HLR5|RAM 4GB|IMPLEMENTED|
+|HLR5|C LANGUAGE|IMPLEMENTED|
