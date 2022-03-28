@@ -40,7 +40,7 @@ values searchbook(int id);
  * 
  * @return values 
  */
-values addbook(int id,char name[],char author[]);
+void addbook(int id,char name[],char author[]);
 
 /**
  * @brief funtion to denote discarded books
@@ -48,21 +48,21 @@ values addbook(int id,char name[],char author[]);
  * @param id 
  * @return values 
  */
-values deletebook(int id);
+void deletebook(int id);
 
 /**
  * @brief function to view all the books
  * 
  * @return test_values 
  */
-values issuebook(int id);
+void issuebook(int id);
 
 /**
  * @brief function to issue the books
  * 
  * @return test_values 
  */
- values editbook(int id);
+ void editbook(int id);
 
 /**
  * @brief function to edit the books
@@ -70,7 +70,7 @@ values issuebook(int id);
  * @return values 
  */
  
-values viewbook(void);
+void viewbook(void);
 
 #endif
 
