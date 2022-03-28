@@ -33,7 +33,7 @@ typedef struct books
   * @return void
   * /
   
-values searchbook(int id);
+void searchbook(int id);
 
 /**
  * @brief function to add new books to the library
