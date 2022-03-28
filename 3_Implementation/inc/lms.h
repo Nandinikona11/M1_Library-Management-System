@@ -40,7 +40,7 @@ void searchbook(int id);
  * 
  * @return values 
  */
-void addbook(int id,char name[],char author[]);
+void addbook(int id,char name[],char author[])
 
 /**
  * @brief funtion to denote discarded books
