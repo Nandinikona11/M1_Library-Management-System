@@ -17,9 +17,6 @@ typedef struct books
     int book_id;
     char book_name[20];
     char author_name[20];
-    int count;
-    float price;
-    int quantity;
 }books;
 
 /**
