@@ -27,17 +27,7 @@ typedef struct books
  * 
  */
 
-typedef enum values {
-    pass = 1,
-    fail = 0
-}values;
 
-/**
- * @brief function to find a book by its ID
- * @param id 
- * @return values 
- */
- 
  void mainmenu()
  
  /**
