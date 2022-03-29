@@ -1,10 +1,10 @@
+#include<lms.h>
 void updateCredential(void)
 {
     sFileHeader fileHeaderInfo = {0};
     FILE *fp = NULL;
     unsigned char userName[MAX_SIZE_USER_NAME] = {0};
     unsigned char password[MAX_SIZE_PASSWORD] = {0};
-    headMessage("Update Credential");
     fp = fopen(FILE_NAME,"rb+");
     if(fp == NULL)
     {
