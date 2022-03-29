@@ -44,8 +44,6 @@ typedef struct// to call in program
  * 
  */
 
-
-
 int isNameValid(const char *name);
 
 /**
