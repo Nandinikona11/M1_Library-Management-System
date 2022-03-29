@@ -1,5 +1,10 @@
 #include<lms.h>
-void menu()
+/**
+ * @brief main function of the project
+ * 
+ * @return int 
+ */
+int main()
 {
     int choice = 0;
     do
@@ -26,9 +31,6 @@ void menu()
         case 4:
             deleteBooks();
             break;
-        case 5:
-            updateCredential();
-            break;
         case 0:
             printf("\n\n\n\t\t\t\tThank you!!!\n\n\n\n\n");
             exit(1);
@@ -37,5 +39,5 @@ void menu()
             printf("\n\n\n\t\t\tINVALID INPUT!!! Try again...");
         }                                            //Switch Ended
     }
-    while(choice!=0);                                        //Loop Ended
+    while(choice!=0);                                       //Loop Ended
 }
