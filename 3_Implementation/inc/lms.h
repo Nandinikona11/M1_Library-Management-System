@@ -44,16 +44,7 @@ typedef struct// to call in program
  * 
  */
 
-typedef enum test_values {
-    pass = 1,
-    fail = 0
-}test_values;
 
-/**
- * @brief function to find a book by its ID
- * @param id 
- * @return test_values 
- */
 
 int isNameValid(const char *name);
 
@@ -66,74 +57,72 @@ int  IsLeapYear(int year);
 
 /**
  * @brief description about year
- *
- * @return 1 if year is valid
  */
 
 int isValidDate(Date *validDate);
 /**
  * @brief decription about date
  *
- * @return 1 if date is valid
+ * @return validdate
  */
 
- test_values menu()
- 
- /**
-  * @brief description about mainmenu
-  *
-  * @return test_values
-  */
-  
-test_values searchbook(int id);
 
-/**
- * @brief function to add new books to the library
- * 
- * @return test_values 
- */
-test_values addbook();
+void addbook();
 
 /**
  * @brief funtion to add books
  * 
  * @param id 
- * @return test_values 
+ *
  */
-test_values deletebooks(int id);
+
+void searchbook(int id);
 
 /**
- * @brief function to view all the books
+ * @brief function to search books in the library
  * 
- * @return test_values 
+ * 
  */
-test_values updatecredential(void);
+void deletebooks(int id);
+
+/**
+ * @brief function to delete the books
+ * 
+ * 
+ */
+void updatecredential(void);
 
 /**
  * @brief function to update the credentials
  * 
- * @return test_values 
  */
+
+void menu()
  
-test_values login();
+ /**
+  * @brief description about mainmenu
+  */
+  
+ 
+void login();
+
 /**
  * @brief decription about login access
  *
- * @return test_values
  */
 
 int isFileExists();
+
 /**
  * @brief decription to check if file exists
  *
- * @return 1 if file exists
  */
 
 void init();
+
 /**
  * @brief description 
  *
- * @return 1
  */
 
 int main();
@@ -141,7 +130,7 @@ int main();
  * //main function
  */
 
-test_values viewbooks(void);
+void viewbooks(void);
 
 #endif
 
