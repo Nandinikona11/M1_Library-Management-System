@@ -1,3 +1,4 @@
+#include<lms.h>
 void deleteBooks()
 {
     int found = 0;
