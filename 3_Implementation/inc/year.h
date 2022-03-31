@@ -1,0 +1,2 @@
+int isValidDate();
+int  IsLeapYear();
