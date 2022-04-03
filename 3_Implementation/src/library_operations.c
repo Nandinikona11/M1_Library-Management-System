@@ -32,10 +32,7 @@ void deleteBooks()
     * @book will be deleted in return
 }
 
-/**
- * @brief lists the phonebook data
- * @return text file of data stored
-*/
+
 
 void searchBooks()
 {
@@ -44,10 +41,7 @@ void searchBooks()
     * @book will be searched in return
 }
 
-/**
- * @brief modify the input data
- * @return the modified valuew
-*/
+
 void updateCredential()
 {
      /** 
