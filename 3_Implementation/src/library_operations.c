@@ -14,18 +14,22 @@
  * @brief prints the input name
  * @return Text file generated with user input name
  */
-void addbook()
+void addBook()
 {
-    return("project.txt","ab+")
+    /** 
+    * @brief description about book adding
+    * @book will be added in return
 }
 
 /**
  * @brief the name of the person you want to see the detail
  * @return text file of the searched name
  */
-void searchfun()
+void deleteBooks()
 {
-    return ("project.txt","r");
+     /** 
+    * @brief description about book deleting
+    * @book will be deleted in return
 }
 
 /**
@@ -33,41 +37,39 @@ void searchfun()
  * @return text file of data stored
 */
 
-void listfun()
+void searchBooks()
 {
-    return("project.txt","r");
+   /** 
+    * @brief description about book searching
+    * @book will be searched in return
 }
 
 /**
  * @brief modify the input data
  * @return the modified valuew
 */
-void modifyfun()
+void updateCredential()
 {
-     return ("project.txt","r");
+     /** 
+    * @brief description about login credentials
+    * @login credentials will be updated
 }
 
-/**
- * @brief delete the phonebook data
- */
-    void deletefun()
-    {
+void viewBooks()
+{
+    /** 
+    * @brief description about books
+    * @book will be shown in return
+}
 
+   void isNameValid()
+    {
+       /** 
+    * @brief description about whether name is valid or not
+    * @checks name valid 
     }
 
-    /**
- * @brief retruns to main page
  
- */
-    void exitfun()
-    {
-
-    }
-
-    /**
- * @brief verifying password from the user
- * 
- */
     void password(void)
     {
 
