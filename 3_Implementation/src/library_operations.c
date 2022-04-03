@@ -59,7 +59,7 @@ void updateCredential()
  * @brief retruns to main page
  
  */
-    void exitfun()
+    void login()
     {
 
     }
@@ -68,11 +68,26 @@ void updateCredential()
  * @brief verifying password from the user
  * 
  */
-    void password(void)
+    void isFileExists()
     {
 
     }
+ void init();
+ /** 
+ * @brief description about credentials
+ */
+ int isNameValid(const char *name);
+ /**
+ * @brief description about name validity
+ */
+ int  IsLeapYear(int year);
+ /**
+ * @brief description about date
+ */
+int isValidDate(Date *validDate)
     /**
+    * @brief description about date validity
+    /*
  * @brief show menu options 
  */
     void menu()
