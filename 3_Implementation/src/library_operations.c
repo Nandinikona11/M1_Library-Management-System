@@ -11,8 +11,8 @@
 #include <library_operations.h>
 
 /**
- * @brief prints the input name
- * @return Text file generated with user input name
+ * @brief description of adding a book
+ * @return the menu
  */
 void addBook()
 {
@@ -20,37 +20,37 @@ void addBook()
 }
 
 /**
- * @brief the name of the person you want to see the detail
- * @return text file of the searched name
+ * @brief description of searching a book
+ * @return the searched book
  */
-void searchfun()
+void searchBooks()
 {
-    return ("project.txt","r");
+    return ("abc.c","rb");
 }
 
 /**
- * @brief lists the phonebook data
- * @return text file of data stored
+ * @brief description of avaliable books
+ * @return the data of available books
 */
 
-void listfun()
+void viewBooks()
 {
-    return("project.txt","r");
+    return("abc.c","rb");
 }
 
 /**
  * @brief modify the input data
  * @return the modified valuew
 */
-void modifyfun()
+void updateCredential()
 {
-     return ("project.txt","r");
+     return ("abc.c","rb+");
 }
 
 /**
  * @brief delete the phonebook data
  */
-    void deletefun()
+    void deleteBooks()
     {
 
     }
