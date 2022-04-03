@@ -57,22 +57,22 @@ void viewBooks()
 }
 
 void isNameValid()
-{
+
        /** 
     * @brief description about whether name is valid or not
     * @checks name valid 
-}
+
 
 void login()
-{
+
         /** 
         * @login
-}
+
 void IsValidDate()
-{
+
         /**
         * @brief check whether date is valid or not
- }
+ 
  * @brief show menu options 
  */
     void menu()
