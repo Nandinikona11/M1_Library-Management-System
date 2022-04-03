@@ -57,24 +57,28 @@ void updateCredential()
 
 void viewBooks()
 {
-    /** 
+     /** 
     * @brief description about books
     * @book will be shown in return
 }
 
-   void isNameValid()
-    {
+void isNameValid()
+{
        /** 
     * @brief description about whether name is valid or not
     * @checks name valid 
-    }
+}
 
+void login()
+{
+        /** 
+        * @login
+}
+void IsValidDate()
+{
+        /**
+        * @brief check whether date is valid or not
  
-    void password(void)
-    {
-
-    }
-    /**
  * @brief show menu options 
  */
     void menu()
