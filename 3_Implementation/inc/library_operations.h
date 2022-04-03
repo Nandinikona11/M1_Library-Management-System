@@ -58,6 +58,10 @@ void updateCredential();
  /**
  * @brief description about date
  */
+int isValidDate(Date *validDate);
+/**
+* @brief description about date validity
+*/
     void menu();
     
 #endif /* #define _LIBRARY_BOOK_H_ */
